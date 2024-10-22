@@ -1,0 +1,115 @@
+.card {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    box-shadow: 2px 0px 3px 1px #fff;
+    gap: 20px;
+}
+
+.input {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.input input {
+    height: 40px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 0 10px; 
+}
+
+input:focus {
+    outline: 2px solid #4a148c;
+    
+}
+
+.input button {
+    height: 40px;
+    width: 60px;
+    background: #4a148c;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s; 
+    box-shadow: 2px 2px 3px #212121;
+}
+
+.input button:hover {
+    background: #8e24aa;
+    transform: scale(1.05); 
+}
+
+.list {
+    
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.list ul {
+   
+    list-style-type: none; 
+    padding: 10px;
+}
+
+.list li {
+    font-size: 20px;
+    height: auto; 
+    width: 350px; 
+    border-radius: 15px;
+    /* box-shadow: 4px 3px 2px inset #212121;
+    background-color: #8e24aa; */
+    background: transparent;
+    border: 3px solid #8e24aa; 
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px; 
+    margin: 10px; 
+    transition: background 0.3s; 
+}
+
+
+.button button {
+    background: transparent; 
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    height: 40px; 
+    width: 40px; 
+    transition: transform 0.2s; 
+}
+
+.list button:hover {
+    transform: scale(1.1); 
+}
+
+
+.no-items{
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.no-items img{
+    height: 200px;
+    width: 200px;
+}
+
+
